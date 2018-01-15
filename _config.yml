@@ -3,10 +3,10 @@
 # ===========================================
 
 # Site creation time
-since: 2015
+since: 2004
 
 # Custom your favicon.ico in `site/source`
-favicon: /favicon.ico
+favicon: /favicon.png
 
 # Set feed link (false | default | your feed link)
 # false: disable
@@ -21,7 +21,7 @@ menu:
   Archives: /archives/
   # Tags: /tags
   # Categories: /categories
-  # About: /about
+  About: /about
 
 # ===========================================
 # Theme Settings
@@ -30,8 +30,8 @@ menu:
 # color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
 theme:
   color: Default
-  toc: false
-  fancybox: false
+  toc: true
+  fancybox: true
 
 copyright:
   enable: true
@@ -39,28 +39,28 @@ copyright:
   license: '<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>'
 
 reward:
-  enable: false
+  enable: true
   qrCode:
-    wechat:
+    wechat: http://7qn9uj.com1.z0.glb.clouddn.com/cress-rewardQR-wx.jpg
     alipay:
 
 # ===========================================
 # Social links Settings
 # ===========================================
 social:
-  email: your@email.com
+  email: cress@duran.im
   stack-overflow:
-  twitter:
+  twitter: https://twitter.com/supercress
   facebook:
   linkedin:
   google:
-  github:
+  github: https://github.com/cresstoo
   weibo:
   zhihu:
   douban:
   pocket:
   tumblr:
-  instagram:
+  instagram: https://instagram.com/kuresu
 
 # ===========================================
 # Third Party Services Settings
@@ -77,20 +77,17 @@ baidu_analytics:
 baidu_verification:
 
 # Google Analytics
-google_analytics:
+google_analytics: UA-56488433-2
 # Google Verification
 google_verification:
 
 # Disqus
-disqus_shortname:
+disqus_shortname: imduran
 
 #Changyan
 changyan:
   appid:
   appkey:
-
-#LiveRe
-livere_datauid:
 
 # ===========================================
 # Version
