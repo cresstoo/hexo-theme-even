@@ -23,6 +23,9 @@ menu:
   # Categories: /categories
   About: /about
 
+# default page mode: default | archives
+mode: archives
+
 # ===========================================
 # Theme Settings
 # ===========================================
@@ -57,7 +60,7 @@ social:
   github: https://github.com/cresstoo
   weibo:
   zhihu:
-  douban:
+  doubai:
   pocket:
   tumblr:
   instagram: https://instagram.com/kuresu
